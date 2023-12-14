@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalizar Pedido</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1 id="titulo">Finalizar Pedido</h1>
+        <p id="subtitulo"> Complete suas informações</p>
+        <br>
+    </div>
+    <form>
+        <fieldset >
+            <div>
+                <label id="nome" for="nome"><strong>Nome:</strong></label>
+                <input type="text" name="nome" id="nome">
+            </div>
+            <div>
+                <label id="Sobrenome" for="Sobrenome"> <strong>Sobrenome:</strong></label>
+                <input type="text" name="Sobrenome" id="Sobrenome">
+            </div>
+        </fieldset >
+        <div>
+            <label id="Telefone" for="Telefone"> <strong>Telefone:</strong></label>
+            <input type="text" name="Telefone" id="Telefone">
+        </div>
+         
+        <div>
+            <label id="moradia"> Casa ou Apartamento ?</label>
+            <label>
+                <input type="radio" name="local" value="casa">Casa
+            </label>
+            <label><input type="radio" name="local" value="apartamento"> apartamento</label>
+        </div>
+        <div>
+            <label> Metodo de Pagamento</label>
+            <select id=" Metodo de Pagamento">
+                <option  selected disabled value="">Selecione</option>
+                <option >Dinheiro</option>
+                <option >Cartão de Crédito</option>
+                <option >Cartão de Débito</option>
+                <option >Pix</option>
+            </select>
+        </div>
+        <div>
+            <br>
+            <label> Escreva o nome da rua e numero do local de entrega</label>
+            <textarea name="local" id="local" cols="20" rows="1"></textarea>
+        </div>
+        <button type="submit">Concluido</button>
+
+
+    </form>
+</body>
+</html>
